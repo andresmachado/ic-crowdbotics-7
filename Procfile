@@ -1,0 +1,1 @@
+web: waitress-serve --port=$PORT ic_crowdbotics_7.wsgi:application

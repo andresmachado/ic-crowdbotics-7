@@ -1,0 +1,16 @@
+
+{
+  "name": "ic-crowdbotics-7",
+  "description": "This is repository for django app with functions for web django twitter",
+  "repository": "https://github.com/crowdbotics/ic-crowdbotics-7",
+  "keywords": ['django'],
+  "env": {
+    "DEBUG_COLLECTSTATIC": "1" 
+  },
+  "addons": [
+    "heroku-postgresql:hobby-dev"
+  ],
+  "scripts": {
+    "postdeploy": "python manage.py migrate --noinput"
+  }
+}
